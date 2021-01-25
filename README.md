@@ -16,21 +16,21 @@ Python 資料科學程式馬拉松
 
 ## Numpy
 ### Day 1 NumPy Basic Use
-介紹如何安裝及載入 NumPy。
-依照陣列產生的需求，使用相對應的函式，建立 NumPy 陣列。
-了解陣列屬性，在操作陣列時用來查看陣列資訊。
-NumPy 相關單元如果沒有特別說明的話，陣列均指 NumPy 陣列 (而非其他，例如 Python 陣列)。
+介紹如何安裝及載入 NumPy。<br>
+依照陣列產生的需求，使用相對應的函式，建立 NumPy 陣列。<br>
+了解陣列屬性，在操作陣列時用來查看陣列資訊。<br>
+NumPy 相關單元如果沒有特別說明的話，陣列均指 NumPy 陣列 (而非其他，例如 Python 陣列)。<br>
 
 ### Day 2 NumPy Advanced
-陣列進階操作
-介紹陣列重塑
-介紹軸 (axis) 與維度 (dimension)
-介紹陣列的合併與分割
-介紹陣列的迭代
-介紹陣列的搜尋與排序
+陣列進階操作<br>
+介紹陣列重塑<br>
+介紹軸 (axis) 與維度 (dimension)<br>
+介紹陣列的合併與分割<br>
+介紹陣列的迭代<br>
+介紹陣列的搜尋與排序<br>
 
 ### Day 3 Universal Functions (ufunc)
-陣列運算及數學
+陣列運算及數學<br>
 NumPy 提供許多數學及統計的函式，這些函式的用法都很相似，針對陣列進行 element-wise 的操作，並回傳陣列做為輸出，稱為 Universal Functions (ufunc)。
 
 ### Day 4 Logic functions
@@ -49,9 +49,9 @@ NumPy 提供許多數學及統計的函式，這些函式的用法都很相似�
 - 直方圖 (Histogram)
 
 ### Day 6 IO
-NumPy 提供自己的高效能檔案格式，可透過 save()、load() 等函式進行儲存或讀取，儲存時也可使用 savez() 將檔案壓縮。
-從一般的文字檔讀取或儲存，可以使用 savetxt() 與 loadtxt()。
-genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取陣列資料。
+NumPy 提供自己的高效能檔案格式，可透過 save()、load() 等函式進行儲存或讀取，儲存時也可使用 savez() 將檔案壓縮。<br>
+從一般的文字檔讀取或儲存，可以使用 savetxt() 與 loadtxt()。<br>
+genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取陣列資料。<br>
 
 ### Day 7 Matrix functions and linear algebra 
 學習 NumPy 線性代數相關函式，分為下列主題進行介紹。
@@ -61,12 +61,12 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 - 矩陣分解
 
 ### Day 8 Structured Arrays
-深入了解 NumPy 資料型別 dtype 及如何應用
-介紹如何及操作結構化陣列 (Structured Arrays)
+深入了解 NumPy 資料型別 dtype 及如何應用<br>
+介紹如何及操作結構化陣列 (Structured Arrays)<br>
 
 ## Pandas
 ### Day 9 IO
-讀寫csv
-讀寫excel
-讀寫json
-讀寫SQL資料庫
+讀寫csv<br>
+讀寫excel<br>
+讀寫json<br>
+讀寫SQL資料庫<br>

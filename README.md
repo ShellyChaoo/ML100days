@@ -11,6 +11,7 @@ Python 資料科學程式馬拉松
   * [Day 8 Structured Arrays](#day-8-structured-arrays)
 - [Pandas](#pandas)
   * [Day 9 IO](#day-9-io)
+  * [Day 10 Indexing & selecting data](#day-10-indexing---selecting-data)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -70,3 +71,9 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 讀寫excel<br>
 讀寫json<br>
 讀寫SQL資料庫<br>
+
+### Day 10 Indexing & selecting data
+建立索引可快速找到需要的資料集。<br>
+操作資料非常靈活可以刪減欄位，刪減列資料。<br>
+資料過濾與操作資料不同，過濾出來的資料將是新資料集，不會動到原本的資料。<br>
+合併資料時合併欄位(key)可多個欄位，遇到相同欄位名稱時 merge 會自動產生字尾，join 則不會。<br>

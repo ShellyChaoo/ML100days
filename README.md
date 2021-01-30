@@ -11,8 +11,9 @@ Python 資料科學程式馬拉松
   * [Day 08 Structured Arrays](#day-08-structured-arrays)
 - [Pandas](#pandas)
   * [Day 09 IO](#day-09-io)
-  * [Day 10 Indexing & selecting data](#day-10-indexing---selecting-data)
-  * [Day 11 Categorical data & missing value](#day-11-categorical-data---missing-value)
+  * [Day 10 Indexing and selecting data](#day-10-indexing-and-selecting-data)
+  * [Day 11 Categorical data and missing value](#day-11-categorical-data-and-missing-value)
+  * [Day 12 Pandas plot](#day-12-pandas-plot)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -73,18 +74,35 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 讀寫json<br>
 讀寫SQL資料庫<br>
 
-### Day 10 Indexing & selecting data
+### Day 10 Indexing and selecting data
 建立索引可快速找到需要的資料集。<br>
 操作資料非常靈活可以刪減欄位，刪減列資料。<br>
 資料過濾與操作資料不同，過濾出來的資料將是新資料集，不會動到原本的資料。<br>
 合併資料時合併欄位(key)可多個欄位，遇到相同欄位名稱時 merge 會自動產生字尾，join 則不會。<br>
 
-### Day 11 Categorical data & missing value
-- 認識類別資料，有順序型與一般型，使用的編碼方式分別為<br>
-順序性 LabelEncoder()<br>
-一般性 get_dummies() (One-hot Encoding)<br>
+### Day 11 Categorical data and missing value
+認識類別資料，有順序型與一般型，使用的編碼方式分別為<br>
+- 順序性 LabelEncoder()
+- 一般性 get_dummies() (One-hot Encoding)
 
-- 缺值處理方法共有三種<br>
-定值補值<br>
-前(後)補值<br>
-內插法補值<br>
+缺值處理方法共有三種<br>
+- 定值補值
+- 前(後)補值
+- 內插法補值
+
+### Day 12 Pandas plot
+折線圖<br>
+- 適用：會隨時間變動的值
+- 函數 : .plot()
+
+長條圖<br>
+- 適用：不同種類資料，在不同時間點的變化
+- 函數 : .plot.bar()
+
+箱型圖<br>
+- 適用：完整呈現數值分布的統計圖表
+- 函數 : .boxplot()
+
+散佈圖<br>
+- 適用：呈現相關數值間的關係
+- 函數 : .plot.scatter()

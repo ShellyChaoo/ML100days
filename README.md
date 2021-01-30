@@ -14,6 +14,8 @@ Python 資料科學程式馬拉松
   * [Day 10 Indexing and selecting data](#day-10-indexing-and-selecting-data)
   * [Day 11 Categorical data and missing value](#day-11-categorical-data-and-missing-value)
   * [Day 12 Pandas plot](#day-12-pandas-plot)
+  * [Day 13 Pandas statistic](#day-13-pandas-statistic)
+
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -106,3 +108,7 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 散佈圖<br>
 - 適用：呈現相關數值間的關係
 - 函數 : .plot.scatter()
+
+### Day 13 Pandas statistic
+mean, median, quantile, std, var, corr, apply...<br>
+lambda x 相當於數學式中的 f(x) 

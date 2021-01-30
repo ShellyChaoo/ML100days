@@ -77,3 +77,13 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 操作資料非常靈活可以刪減欄位，刪減列資料。<br>
 資料過濾與操作資料不同，過濾出來的資料將是新資料集，不會動到原本的資料。<br>
 合併資料時合併欄位(key)可多個欄位，遇到相同欄位名稱時 merge 會自動產生字尾，join 則不會。<br>
+
+### Day 11 Categorical data & missing value
+- 認識類別資料，有順序型與一般型，使用的編碼方式分別為
+順序性 LabelEncoder()<br>
+一般性 get_dummies() (One-hot Encoding)<br>
+
+- 缺值處理方法共有三種
+定值補值<br>
+前(後)補值<br>
+內插法補值<br>

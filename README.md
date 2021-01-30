@@ -12,6 +12,7 @@ Python 資料科學程式馬拉松
 - [Pandas](#pandas)
   * [Day 09 IO](#day-09-io)
   * [Day 10 Indexing & selecting data](#day-10-indexing---selecting-data)
+  * [Day 11 Categorical data & missing value](#day-11-categorical-data---missing-value)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -79,11 +80,11 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 合併資料時合併欄位(key)可多個欄位，遇到相同欄位名稱時 merge 會自動產生字尾，join 則不會。<br>
 
 ### Day 11 Categorical data & missing value
-- 認識類別資料，有順序型與一般型，使用的編碼方式分別為
+- 認識類別資料，有順序型與一般型，使用的編碼方式分別為<br>
 順序性 LabelEncoder()<br>
 一般性 get_dummies() (One-hot Encoding)<br>
 
-- 缺值處理方法共有三種
+- 缺值處理方法共有三種<br>
 定值補值<br>
 前(後)補值<br>
 內插法補值<br>

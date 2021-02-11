@@ -17,6 +17,7 @@ Python 資料科學程式馬拉松
   * [Day 13 Pandas statistic](#day-13-pandas-statistic)
   * [Day 14 Pivot](#day-14-pivot)
   * [Day 15 Groupby](#day-15-groupby)
+  * [Day 16 Date](#day-16-date)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -117,12 +118,12 @@ lambda x 相當於數學式中的 f(x)
 ### Day 14 Pivot
 - 索引轉欄位 .unstack()、欄位轉索引 .stack()，注意都是由最外層開始轉換
 - 欄位名稱轉為欄位值.melt()，其中參數
-* id_vars：不需要被轉換的列名
-* value_vars：需要轉換的列名，如果剩下的列全部都要轉換，就不用寫了
+    * id_vars：不需要被轉換的列名
+    * value_vars：需要轉換的列名，如果剩下的列全部都要轉換，就不用寫了
 - 重新組織資料.pivot()，其中參數
-* index：新資料的索引名稱
-* columns：新資料的欄位名稱
-* values：新資料的值名稱
+    * index：新資料的索引名稱
+    * columns：新資料的欄位名稱
+    * values：新資料的值名稱
 
 ### Day 15 Groupby
 - df.groupby(['col']).mean()<br>
@@ -130,3 +131,9 @@ lambda x 相當於數學式中的 f(x)
 df.groupby(['col1','col2']).mean()<br>
 - 多個欄位多個分析<br>
 df.groupby(['col1','col2']).agg(['mean','std'])
+
+### Day 16 Date
+- 時間序列的資料非常注重時間的間隔
+- 時間序列的資料可以使用索引操作
+- 時間資料可以加時間或是計算相差時間
+- 時間資料可以呼叫年、月、日、第幾周、星期幾

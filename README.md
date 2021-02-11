@@ -15,7 +15,7 @@ Python 資料科學程式馬拉松
   * [Day 11 Categorical data and missing value](#day-11-categorical-data-and-missing-value)
   * [Day 12 Pandas plot](#day-12-pandas-plot)
   * [Day 13 Pandas statistic](#day-13-pandas-statistic)
-
+  * [Day 14 Pivot](#day-14-pivot)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -112,3 +112,13 @@ genfromtxt() 是一個功能強大且彈性的函式，能從文字檔中讀取�
 ### Day 13 Pandas statistic
 mean, median, quantile, std, var, corr, apply...<br>
 lambda x 相當於數學式中的 f(x) 
+
+### Day 14 Pivot
+- 索引轉欄位 .unstack()、欄位轉索引 .stack()，注意都是由最外層開始轉換
+- 欄位名稱轉為欄位值.melt()，其中參數
+id_vars：不需要被轉換的列名<br>
+value_vars：需要轉換的列名，如果剩下的列全部都要轉換，就不用寫了<br>
+- 重新組織資料.pivot()，其中參數
+index：新資料的索引名稱<br>
+columns：新資料的欄位名稱<br>
+values：新資料的值名稱<br>

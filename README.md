@@ -149,6 +149,6 @@ df.groupby(['col1','col2']).agg(['mean','std'])
 
 ## Data Visualization
 - matplotlib<br>
-<i><a href='https://zhuanlan.zhihu.com/p/93423829'>plt,fig,axes<\a><\i><br>
+<i><a href='https://zhuanlan.zhihu.com/p/93423829'>plt,fig,axes</a></i><br>
 - seaborn<br>
-<i><a href='https://medium.com/@putrinisa64/visualization-using-package-seaborn-python-1203e8e4e3ca'>Visualization Using Package Seaborn Python<\a><\i>
+<i><a href='https://medium.com/@putrinisa64/visualization-using-package-seaborn-python-1203e8e4e3ca'>Visualization Using Package Seaborn Python</a></i>

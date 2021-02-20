@@ -19,6 +19,7 @@ Python 資料科學程式馬拉松
   * [Day 15 Groupby](#day-15-groupby)
   * [Day 16 Date](#day-16-date)
   * [Day 17 Optimize](#day-17-optimize)
+- [Data Visualization](#data-visualization)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -145,3 +146,7 @@ df.groupby(['col1','col2']).agg(['mean','std'])
 - 多使用內建函數
 - 向量化的資料處理<br>
 欄位的型態降級有助於減少記憶體佔用空間
+
+## Data Visualization
+- matplotlib
+- seaborn

@@ -148,5 +148,6 @@ df.groupby(['col1','col2']).agg(['mean','std'])
 欄位的型態降級有助於減少記憶體佔用空間
 
 ## Data Visualization
-- matplotlib
+- matplotlib<br>
+plt,fig,axes: https://zhuanlan.zhihu.com/p/93423829
 - seaborn

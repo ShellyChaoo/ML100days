@@ -20,8 +20,8 @@ Python 資料科學程式馬拉松
   * [Day 16 Date](#day-16-date)
   * [Day 17 Optimize](#day-17-optimize)
 - [Data Visualization](#data-visualization)
-Day18 - Day25
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<br>Day18 - Day25
+<br><small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Numpy
 ### Day 01 NumPy Basic Use
@@ -149,6 +149,6 @@ df.groupby(['col1','col2']).agg(['mean','std'])
 
 ## Data Visualization
 - matplotlib<br>
-<i><a href='https://zhuanlan.zhihu.com/p/93423829'>plt,fig,axes<\i><\a><br>
+<i><a href='https://zhuanlan.zhihu.com/p/93423829'>plt,fig,axes<\a><\i><br>
 - seaborn<br>
-<i><a href='https://medium.com/@putrinisa64/visualization-using-package-seaborn-python-1203e8e4e3ca'>Visualization Using Package Seaborn Python<\i><\a>
+<i><a href='https://medium.com/@putrinisa64/visualization-using-package-seaborn-python-1203e8e4e3ca'>Visualization Using Package Seaborn Python<\a><\i>

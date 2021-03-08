@@ -152,3 +152,5 @@ df.groupby(['col1','col2']).agg(['mean','std'])
 <i><a href='https://zhuanlan.zhihu.com/p/93423829'>plt,fig,axes</a></i><br>
 - seaborn<br>
 <i><a href='https://medium.com/@putrinisa64/visualization-using-package-seaborn-python-1203e8e4e3ca'>Visualization Using Package Seaborn Python</a></i>
+- Bokeh Day23<br>
+為一個 Python 函式庫，提供了各式各樣的視覺化必須的輔助函式，同時也將網頁前端的技術細節包裝成一個個的 Python 函式與參數供我們呼叫，讓我們不再需要編輯 HTML 與 JavaScript 便能製作網頁前端視覺化。

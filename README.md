@@ -1,5 +1,5 @@
-# ML60days
-Python 資料科學程式馬拉松
+# Python 資料科學程式馬拉松
+
 - [Numpy](#numpy)
   * [Day 01 NumPy Basic Use](#day-01-numpy-basic-use)
   * [Day 02 NumPy Advanced](#day-02-numpy-advanced)
